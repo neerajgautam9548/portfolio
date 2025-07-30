@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.4s, color 0.4s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+}
+
+.light {
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.dark nav {
+  background-color: #222;
+}
+
+#responseList {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+}
